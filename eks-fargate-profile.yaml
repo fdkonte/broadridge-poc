@@ -1,7 +1,7 @@
 kind: Cluster
 metadata:
   name: test-eks
-  project: defaultproject
+  project: broadridge-poc
 spec:
   type: eks
   cloudprovider: aws
