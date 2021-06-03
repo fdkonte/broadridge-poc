@@ -3,7 +3,7 @@
 CLUSTER_NAME=`cat ./eks-fargate-profile.yaml |grep name|head -1|cut -d ':' -f2`
 
 
-./rctl create cluster eks -f ../examples/eks-fargate-profile.yaml
+./rctl create cluster eks -f ./eks-fargate-profile.yaml
 if [ $? -eq 0 ];
 then
     echo "[+] Successfully Created cluster ${CLUSTER_NAME}"
