@@ -4,7 +4,7 @@ metadata:
   project: broadridge-poc
 spec:
   type: eks
-  cloudprovider: aws
+  cloudprovider: aws-broadridge-poc
   blueprint: default
 ---
 apiVersion: rafay.io/v1alpha5
