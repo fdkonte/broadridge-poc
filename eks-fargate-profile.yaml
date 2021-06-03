@@ -4,7 +4,7 @@ metadata:
   project: defaultproject
 spec:
   type: eks
-  cloudprovider: dev-aws
+  cloudprovider: aws
   blueprint: default
 ---
 apiVersion: rafay.io/v1alpha5
